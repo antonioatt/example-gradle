@@ -20,7 +20,7 @@ public class HelloWorldTest {
 	}
 	
 	@Test
-	public void testGetMessage() {
+	public void testGetMessageBigger() {
 		assertEquals("Hello Universe!", subject.getMessage(true));
 	}
 }
